@@ -1,17 +1,26 @@
+def walk():
+    print("walk")
+
+
 class Mammal:
-    def walk(self):
-        print("walk")
+    pass
+
+
+def bark():
+    print("bark")
 
 
 class Dog(Mammal):
-    def bark(self):
-        print("bark")
+    def walk(self):
+        print("walk")
+        pass
 
 
 class Cat(Mammal):
     pass
 
+
 dog1 = Dog()
 dog1.walk()
 cat1 = Cat()
-cat1.walk()
+walk()
